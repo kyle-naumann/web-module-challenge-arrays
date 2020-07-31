@@ -85,7 +85,7 @@ function removeLastFlavor(array){
 array.pop();
 
 }
-console.log("Remove Last Flavor", array)
+console.log("Remove Last Flavor", originalFlavors)
 
 /* Task 4: Write a function that returns a flavor at a given index in the array.
 
@@ -118,7 +118,7 @@ function removeFlavorByName(array, flavor) {
     for (let i = 0; i < array.length; i++)
     if (array[i] === flavor) 
     {
-    array.splice(array(i))
+    array.splice((i))
     }
     return array
 }
